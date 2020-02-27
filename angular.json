@@ -23,10 +23,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.csss"
             ],
             "scripts": [
-             
+                  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             ],
             "es5BrowserSupport": true
           },
@@ -85,7 +86,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              
+
             ],
             "assets": [
               "src/favicon.ico",

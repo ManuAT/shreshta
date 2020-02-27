@@ -1,53 +1,15 @@
 import { Component } from '@angular/core';
-declare var VANTA;
+import vendors from '../assets/vendors';
+import demo5 from '../assets/demo5';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css',  '../assets/demo5.css']
 })
 export class AppComponent {
   title = 'web';
-  // VANTA : any;
   ngOnInit(){
-    VANTA.BIRDS({
-      el: "#body1",
-      mouseControls: true,
-      touchControls: true,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      colorMode: "lerp"
-    })
+    vendors();
+    demo5('#overlay');
   }
-//  
-test(){
-  // console.log("hello");
-  
-  // VANTA.BIRDS({
-  //   el: "#body1",
-  //   mouseControls: true,
-  //   touchControls: true,
-  //   minHeight: 200.00,
-  //   minWidth: 200.00,
-  //   scale: 1.00,
-  //   scaleMobile: 1.00,
-  //   colorMode: "lerp"
-  // })
-
-}
-// window.onload = function () {
-//   VANTA.BIRDS({
-//     el: "#body1",
-//     mouseControls: true,
-//     touchControls: true,
-//     minHeight: 200.00,
-//     minWidth: 200.00,
-//     scale: 1.00,
-//     scaleMobile: 1.00,
-//     colorMode: "lerp"
-//   });
-// }
-
-
 }

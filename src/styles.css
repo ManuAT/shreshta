@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  /* --color-text: #fff;
+  --color-bg: #1f174e;
+  --color-bg-2: #151436;
+  --color-bg-3: #000;
+  --color-link: #8596df;
+  --color-link-hover: #723bb7; */
+  background: black;
+}
